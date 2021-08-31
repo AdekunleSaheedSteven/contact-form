@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+	<title>Form</title>
+	<style>
+
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family: 'Nunito Sans', sans-serif;
+		background: #6F4C5B;
+		color: #fff;
+    line-height: 1.8;
+	}
+
+	a {
+		text-decoration: none;
+		color: #57CC99;
+	}
+
+	.container {
+		max-width: 500px;
+		background: #F5E8C7;
+		color: #333;
+		margin: 30px auto;
+	}
+
+	.form-wrap {
+		padding: 20px;
+		width: 100%;
+	}
+
+	.form-wrap .header {
+		text-align: center;
+	}
+
+	.form-group {
+		width: 100%;
+	}
+
+	.form-group .group-label {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.form-group .text-input {
+		width: 100%;
+		height: 30px;
+	}
+
+	.form-wrap .btn {
+		border: none;
+		background: #6F4C5B;
+		width: 100%;
+		height: 40px;
+		margin-top: 20px;
+		color: #fff;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 16px;
+	}
+
+	.form-wrap .btn:hover {
+		background: #9E7777;
+	}
+
+	.form-wrap p {
+		margin: 10px;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="container">
+		<form class="form-wrap" action="">
+			<div class="header">
+				<h1>Sign Up Now</h1>
+				<p>It's free and only takes a minute</p>
+			</div>
+			<div class="form-group">
+				<label for="firstName" class="group-label">First Name</label>
+				<input type="text" name="" id="firstName" class="text-input">
+			</div>
+			<div class="form-group">
+				<label for="lastName" class="group-label">Last Name</label>
+				<input type="text" name="" id="lastName" class="text-input">
+			</div>
+			<div class="form-group">
+				<label for="email" class="group-label">Email</label>
+				<input type="email" name="" id="email" class="text-input">
+			</div>
+			<div class="form-group">
+				<label for="password" class="group-label">Password</label>
+				<input type="password" name="" id="password" class="text-input">
+			</div>
+			<div class="form-group">
+				<label for="password" class="group-label">Confirm Password</label>
+				<input type="password" name="" id="password" class="text-input">
+			</div>
+			<input type="submit" value="Sign Up" class="btn">
+			<p>By clicking the Sign Up button, you agree to our
+				<a href="#">Terms & Conditions</a> and
+				<a href="#">Privacy Policy</a>
+			</p>
+		</form>
+	</div>
+
+	<footer>
+		<p>Already have an account? <a href="#">Login Here</a></p>
+	</footer>
+
+</body>
+</html>
